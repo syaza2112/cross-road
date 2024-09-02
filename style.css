@@ -11,14 +11,14 @@ button {
   box-shadow: 3px 5px 0px rgba(0,0,0,0.75);
 }
 #counter {
-  position: absolte;
+  position: absolute;
   top: 20px;
-  rigt: 20px;
+  right: 20px;
 }
 #end {
   position: absolute;
   min-width: 100%;
-  min-height: 100%
+  min-height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -49,7 +49,7 @@ button {
 #controlls button {
   width: 100%;
   backgound-color: white;
-  border: 1px solid ligtgray;
+  border: 1px solid lightgray;
 }
 #controlls button:first-of-type {
   grid-column: 1/-1;
