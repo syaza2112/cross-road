@@ -48,7 +48,7 @@ button {
 #controlls button {
   width: 100%;
   backgound-color: white;
-  boeder: 1px solid ligtgray;
+  border: 1px solid ligtgray;
 }
 #controlls button:first-of-type {
   grid-column: 1/-1;
