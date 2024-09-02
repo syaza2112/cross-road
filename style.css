@@ -1,14 +1,14 @@
 body {
   margin: 0;
-  font-family: "press Start 2P", cursive;
+  font-family: 'Press Start 2P', cursive;
   font-size: 2em;
   color: white;
 }
 button {
-  online: none;
+  outline: none;
   cursor: pointer;
   border: none;
-  box-shadow: 3px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 3px 5px 0px 0px rgba(0,0,0,0.75);
 }
 #counter {
   position: absolute;
@@ -28,7 +28,7 @@ button {
   background-color: red;
   padding: 20px 50px 20px 50px;
   font-family: inherit;
-  fornt-size: inherit;
+  font-size: inherit;
 }
 #controlls {
   position: absolute;
@@ -40,7 +40,7 @@ button {
 }
 #controlls div {
   display: grid;
-  grid-template-colums: 50px 50px 50px;
+  grid-template-columns: 50px 50px 50px;
   grid-template-rows: auto auto;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
@@ -48,13 +48,20 @@ button {
 }
 #controlls button {
   width: 100%;
-  backgound-color: white;
+  background-color: white;
   border: 1px solid lightgray;
 }
 #controlls button:first-of-type {
   grid-column: 1/-1;
 }
-#pleyer{
+#player{
+  position: absolute;
+  bottom: 80px;
+  right: 50px;
+  background-color:blue;
+  color:white;
+}
+#player{
   position: absolute;
   bottom: 80px;
   right: 50px;
