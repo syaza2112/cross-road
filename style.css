@@ -12,7 +12,7 @@ button {
 #counter {
   position: absolte;
   top: 20px;
-  rigt: 20px
+  rigt: 20px;
 }
 #end {
   position: absolute;
@@ -20,17 +20,17 @@ button {
   min-height: 100%
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
   visibility: hidden;
 }
 #end button {
   background-color: red;
-  padding: 20px 50px 20px 50px
-  font-family: inherit
+  padding: 20px 50px 20px 50px;
+  font-family: inherit;
   fornt-size: inherit;
 }
 #controlls {
-  position: absolute
+  position: absolute;
   min-width: 100%;
   min-height: 100%;
   display: flex;
@@ -45,7 +45,7 @@ button {
   grid-row-gap: 10px;
   margin-bottom: 20px;
 }
-#controlla button {
+#controlls button {
   width: 100%;
   backgound-color: white;
   boeder: 1px solid ligtgray;
